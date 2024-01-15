@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="25dp"
+    tools:context=".ActionFragment">
+
+    <ImageView
+        android:id="@+id/imgMovie"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:src="@drawable/genji"/>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_marginStart="16dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="GENJI"/>
+
+    <TextView
+        android:id="@+id/Deskription"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_below="@id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:maxLines="5"
+        android:textColor="@color/black"
+        android:text="Takiya Genji (Shun Oguri) adalah siswa kelas tiga yang baru saja pindah ke Sekolah Khusus Pria Suzuran. Saat masuknya bertepatan dengan masa orientasi siswa kelas satu."/>
+
+    <Button
+        android:id="@+id/avenger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_below="@id/Deskription"
+        android:text="Watch Trailer Now"
+        android:onClick="playAvengerTrailer"/>
+
+
+    <ImageView
+        android:id="@+id/imgMovie2"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/ongbak"/>
+
+    <TextView
+        android:id="@+id/tvTitle2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imgMovie2"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="200dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="ONG BAK"/>
+
+    <TextView
+        android:id="@+id/Deskription2"
+        android:layout_toRightOf="@id/imgMovie2"
+        android:layout_below="@id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="210dp"
+        android:maxLines="5"
+        android:textColor="@color/black"
+        android:text="Ketika kepala patung Buddha kuno yang sakral dicuri, Ting, seorang ahli Muay Thai, secara sukarela membawanya kembali. Untuk ini, ia harus mengalahkan anak buah Komtuan yang jahat untuk mengambilnya."/>
+    <Button
+        android:id="@+id/myname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/imgMovie2"
+        android:layout_below="@id/Deskription2"
+        android:text="Watch Trailer Now"
+        android:onClick="playMyNameTrailer"/>
+
+    <ImageView
+        android:id="@+id/imgMovie3"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="400dp"
+        android:src="@drawable/narnia"/>
+
+    <TextView
+        android:id="@+id/tvTitle3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imgMovie3"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="400dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="NARNIA"/>
+
+    <TextView
+        android:id="@+id/Deskription3"
+        android:layout_toRightOf="@id/imgMovie3"
+        android:layout_below="@id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="420dp"
+        android:maxLines="5"
+        android:textColor="@color/black"
+        android:text="Di lautan Narnia, Lucy, Edmund dan Eustace diselamatkan oleh Prince Caspian. Dengan kapal The Dawn Treader, mereka berangkat untuk mencari tujuh ksatria Telmar yang masih setia kepada sang raja."/>
+
+    <Button
+        android:id="@+id/spiderman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/imgMovie3"
+        android:layout_below="@id/Deskription3"
+        android:text="Watch Trailer Now"
+        android:onClick="playSpidermanTrailer" />
+</RelativeLayout>

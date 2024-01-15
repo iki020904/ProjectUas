@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="25dp">
+
+    <ImageView
+        android:id="@+id/imgMovie"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:src="@drawable/bucin"/>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@id/imgMovie"
+        android:text="Bucin"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/Deskription"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_below="@id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:maxLines="5"
+        android:textColor="@color/black"
+        android:text="Mulanya tak ada yang sadar bahwa mereka bucin. Namun mereka sangat tunduk pada pacar sehingga bisa dikategorikan dengan bucin. Sampai suatu ketika, mereka mengikuti kelas antibucin untuk menjalani hubungan yang lebih dewasa dengan pasangan."/>.
+    <Button
+        android:id="@+id/centurygirl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_below="@id/Deskription"
+        android:text="Watch Trailer Now"
+        android:onClick="playCenturygirlTrailer"/>
+
+    <ImageView
+        android:id="@+id/imgMovie2"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/nathan"/>
+
+    <TextView
+        android:id="@+id/tvTitle2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="200dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="Dear Nathan"/>
+
+    <TextView
+        android:id="@+id/Deskription2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitle"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="210dp"
+        android:layout_toRightOf="@id/imgMovie"
+        android:maxLines="5"
+        android:textColor="@color/black"
+        android:text="menceritakan tentang nathan dan salma yang saling bertemu, kedekatan mereka mulai mendapatkan ujian pada saat kehadiran orang yang kembali ada di kehidupan mereka."/>
+
+    <Button
+        android:id="@+id/cheerup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_below="@id/Deskription2"
+        android:text="Watch Trailer Now"
+        android:onClick="playCheerupTrailer"/>
+
+    <ImageView
+        android:id="@+id/imgMovie3"
+        android:layout_width="150dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="400dp"
+        android:src="@drawable/barangmantan"/>
+
+    <TextView
+        android:id="@+id/tvTitle3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="400dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="Toko Barang Mantan"/>
+
+    <TextView
+        android:id="@+id/Deskription3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitle"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="410dp"
+        android:layout_toRightOf="@id/imgMovie"
+        android:maxLines="5"
+        android:textColor="@color/black"
+        android:text="Toko Barang Mantan adalah toko jual-beli barang-barang mantan bagi orang-orang yang ingin move-on dari mantannya. Sebagai pencetus ide, pendiri dan pemiliknya, Tristan rela meninggalkan kuliah hukumnya demi bisa fokus mengembangkan toko ini bersama sahabatnya, Amel dan Rio. "/>
+    <Button
+        android:id="@+id/hiddenlove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_below="@id/Deskription3"
+        android:text="Watch Trailer Now"
+        android:onClick="playHiddenloveTrailer"/>
+</RelativeLayout>
